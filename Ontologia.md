@@ -13,7 +13,7 @@ L’ontologia serve come **linguaggio comune e struttura concettuale**, permette
 
 ## Funzionalità Principali
 1. Calcolo multi-dataset delle metriche universali.
-2. Motore auto-adattivo ITNA-like con pesi dinamici.
+2. Motore adattivo che aggiorna automaticamente i pesi delle metriche per generare una signature stabile e comparabile.
 3. Signature adattiva con monitoraggio della convergenza.
 4. Generazione automatica di report PDF/HTML.
 5. Plug & Play: facile aggiunta di nuovi dataset.
