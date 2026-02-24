@@ -6,7 +6,7 @@
 
 ---
 
-## Proprietary License - D.L.N. / NeuroCore™/04920∩
+## Proprietary License NeuroCore™/04920∩
 
 All rights reserved. Commercial use of this repository, code, or associated data
 is prohibited without express written permission from D.L.N.
