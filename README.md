@@ -17,7 +17,7 @@ For licensing inquiries, contact: nicolettidavideluca@gmail.com
 
 ## 🔹 Descrizione
 
-Europa è un **framework computazionale e pipeline universale** per l'analisi dei regimi funzionali in segnali neurofisiologici.  
+Europa è un **framework computazionale** per l'analisi dei regimi funzionali in segnali neurofisiologici.  
 Permette di:
 
 - Caricare dati multi-dataset (EEG, iEEG, fNIRS, etc.)  
