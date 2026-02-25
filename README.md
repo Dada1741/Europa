@@ -1,61 +1,107 @@
-
 # Europa – Adaptive Signature System v4.0
 
-**NeuroCore™ / 04920∩ Framework**  
+**NeuroCore™ / 04920∩ Framework**
 © 2026 Davide Luca Nicoletti
 
----
-
-## Proprietary License NeuroCore™/04920∩
-
-All rights reserved. Commercial use of this repository, code, or associated data
-is prohibited without express written permission from D.L.N.
-
-For licensing inquiries, contact: nicolettidavideluca@gmail.com
+**License:** Proprietary License NeuroCore™ / 04920∩
+All rights reserved. Commercial use is prohibited without explicit written permission.
 
 ---
 
-## 🔹 Descrizione
+## Overview
 
-Europa è un **framework computazionale** per l'analisi dei regimi funzionali in segnali neurofisiologici.  
-Permette di:
+**Europa** is a computational framework within the **NeuroCore™ / 04920∩ architecture**, designed to analyze and quantify functional regimes in neurophysiological signals.
 
-- Caricare dati multi-dataset (EEG, iEEG, fNIRS, etc.)  
-- Applicare metriche universali pipeline-agnostiche  
-- Generare report automatici (PDF + HTML)  
-- Monitorare la **signature adattiva** con criteri di convergenza
+It provides a **pipeline-agnostic computational layer** for multi-dataset integration, adaptive metric aggregation, and reproducible functional state analysis.
 
-**⚠️ Nota importante:** le metriche FS, DV, FR, MI sono al momento **generiche e in fase di sviluppo**. Questo repository pubblica **il framework e la pipeline**, non risultati definitivi.
+Supported modalities include:
 
----
-
-## 🔹 Obiettivo del repository
-
-- Registrare la paternità di **NeuroCore™ / 04920∩**  
-- Fornire uno **scheletro operativo e replicabile**  
-- Creare una base per sviluppi futuri, integrazione di metriche definitive e validazione scientifica
+* EEG
+* iEEG
+* fNIRS
+* Other physiological time-series systems
 
 ---
 
-## 🔹 Funzionalità attuali
+## Core Capabilities
 
-1. Multi-dataset e pipeline-agnostico  
-2. Motore auto-adattivo con pesi adattivi per stabilità funzionale  
-3. Generazione di report PDF e HTML automaticamente  
-4. Visualizzazione avanzata:
-   - Boxplot cross-dataset  
-   - FS + λ(t) per ogni dataset  
-   - Andamento della signature adattiva e criteri di convergenza  
+Europa enables:
+
+* **Multi-dataset loading and processing**
+* **Pipeline-agnostic metric computation**
+* **Adaptive signature generation using dynamic metric weighting**
+* **Latent functional regime tracking via time-dependent state representation λ(t)**
+* **Automated report generation (PDF and HTML)**
+* **Cross-dataset visualization and comparative analysis**
 
 ---
 
-## 🔹 Struttura repository consigliata
+## Adaptive Signature Model
 
-```text
+Europa implements an **adaptive signature system** based on the weighted aggregation of universal metrics:
+
+* **FS** — Functional Stability
+* **DV** — Dynamic Variability
+* **FR** — Functional Resilience
+* **MI** — Metric Integration
+
+These metrics are combined to generate a **stable and comparable functional signature** representing latent regime dynamics.
+
+The adaptive engine automatically updates metric weights to improve:
+
+* Stability
+* Cross-dataset comparability
+* Temporal convergence
+
+---
+
+## Ontological Definition
+
+Europa defines a formal computational structure based on:
+
+* **Latent Functional Regime (λ(t))**
+  Time-dependent representation of system state dynamics.
+
+* **Universal Metrics**
+  Pipeline-independent quantitative descriptors.
+
+* **Adaptive Signature**
+  Weighted aggregation representing functional identity.
+
+* **Dataset and Pipeline Abstraction**
+  Standardized interface independent of acquisition or preprocessing methods.
+
+This structure enables reproducibility, formalization, and cross-system comparison.
+
+---
+
+## Repository Objective
+
+This repository serves to:
+
+* Establish authorship of the NeuroCore™ / 04920∩ architecture
+* Provide a reproducible computational framework
+* Enable future scientific validation and metric refinement
+* Support integration across heterogeneous datasets
+
+---
+
+## Repository Structure
+
 NeuroCore-Europa/
-│
-├── europa_pipeline.py       # pipeline principale
-├── metrics.py               # scheletro delle metriche FS, DV, FR, MI
-├── README.md                # questo file
-├── LICENSE                  # licenza proprietaria
-└── examples/                # esempi sintetici di dati λ(t)
+
+├── europa_pipeline.py     # Main processing pipeline
+├── metrics.py             # Metric computation framework
+├── README.md              # Documentation
+├── LICENSE                # Proprietary license
+└── examples/              # Usage examples
+
+---
+
+## Development Status
+
+**Important Notice**
+
+The FS, DV, FR, and MI metrics are currently under active development and validation.
+
+This repository provides the computational framework and pipeline infrastructure, not finalized physiological or clinical interpretations.
